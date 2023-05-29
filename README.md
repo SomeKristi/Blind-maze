@@ -1,2 +1,3 @@
 # Blind-maze
-A python cli game
+- made by SomeKristi on GitHub
+- A python cli game
