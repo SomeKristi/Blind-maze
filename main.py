@@ -23,7 +23,8 @@ def Game():
             if char==-1:
                 if randint(1,chance) == 1:
                     pPos=[i,c]
-                    chance+=1
+                    if chance==1:
+                        chance+=1
             i+=1
         c+=1
     c=0
@@ -87,7 +88,6 @@ def Game():
         print(f"{style.bold+style.B_green}YOU HAVE WON!!!!{style.reset}")
     else:
         print(f"{style.red+style.bold}Giving up already?{style.reset}")
-
 
 menu=True
 print(style.refreshScreen)
